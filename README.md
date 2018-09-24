@@ -1,27 +1,18 @@
-TypeScript tsconfig.json Demo
-============================
-
-`tsconfig.json`是typescript项目的说明文件，指定`tsc`所需要的各个参数。
+TypeScript Import Txt File as String (Issue) Demo
+=================================================
 
 ```
 npm install
-npx tsc
+npm run demo
 ```
 
-You will see `hello.js` and `hello.js.map` generated.
+It will print error:
 
 ```
-node hello.js
+console.log(`Hello, ${username_txt_1.default.trim()}!`);
+                                             ^
+
+TypeError: Cannot read property 'trim' of undefined
 ```
 
-It will print `Hello, TypeScript!`
-
-或者使用node-ts：
-
-```
-npx ts-node hello.ts
-```
-
-Resources
----------
-- tsconfig详解：<https://www.typescriptlang.org/docs/handbook/tsconfig-json.html>
+How to fix?

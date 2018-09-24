@@ -1,3 +1,3 @@
-import {capitalize} from 'lodash';
+import username from './username.txt'
 
-console.log("Hello, " + capitalize("typescript") + "!");
+console.log(`Hello, ${username.trim()}!`)
