@@ -1,3 +1,4 @@
-import username from './username.txt'
+// import username from './username.txt'
+import * as username from './username.txt';
 
-console.log(`Hello, ${username.trim()}!`)
+console.log(`Hello, ${username.trim()}!`);

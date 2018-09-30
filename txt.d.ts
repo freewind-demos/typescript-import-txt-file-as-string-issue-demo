@@ -1,4 +1,5 @@
 declare module '*.txt' {
-    const value: string
-    export default value;
+    const value: string;
+    // export default value;
+    export = value;
 }

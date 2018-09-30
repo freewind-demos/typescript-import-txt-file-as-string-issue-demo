@@ -16,3 +16,8 @@ TypeError: Cannot read property 'trim' of undefined
 ```
 
 How to fix?
+
+Update:
+-------
+
+With the help of https://stackoverflow.com/a/52488349/342235, it's fixed now, thanks!
